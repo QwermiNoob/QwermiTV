@@ -146,7 +146,7 @@ section {
 
   .animate-on-scroll {
     transform: translate(0, 0);
-    font-size: 12px;
+    font-size: 10px;
   }
 
 }
