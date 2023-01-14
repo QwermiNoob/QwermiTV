@@ -1,0 +1,164 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 15px 5%;
+  background-color: #1e1e23;
+  filter: blur(5%);
+}
+
+.logo {
+  margin-right: auto;
+  width: 25%;
+  height: auto;
+  margin-top: 5px;
+}
+
+.nav__links a,
+.cta,
+.overlay__content a {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  color: #edf0f1;
+  text-decoration: none;
+}
+
+.cta {
+  margin-left: 20px;
+  padding: 9px 25px;
+  background-color: rgba(17, 118, 207, 1);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+.cta:hover {
+  background-color: rgba(17, 118, 207, 0.8);
+}
+
+body {
+  background-color: #24252a;
+  color: #ffffff;
+  font-family: 'Poppins', sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+section {
+  display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.animate-on-scroll {
+  font-size: 25px;
+  opacity: 0;
+  filter: blur(5px);
+	transition: all 0.4s ease-out;
+  transform: translate(-300px, 0);
+	transition-delay: 0.2s;
+  height: 50vh;
+}
+.animate-on-scroll-delayed {
+  height: auto;
+  margin-top: 50px;
+  opacity: 0;
+  filter: blur(5px);
+	transition: all 1.5s;
+  font-size: 40px;
+  transition-delay: 0.2s;
+}
+.more-delay {
+  height: auto;
+  opacity: 0;
+  filter: blur(5px);
+	transition: all 1.5s;
+  font-size: 30px;
+  transition-delay: 0.5s;
+}
+
+.animate {
+  opacity: 1;
+  filter: blur(0);
+  transform: translate(0, 0);
+}
+
+.scroll-down {
+  margin-top: 50px;
+  background-color: #323239;
+  color: white;
+  padding: 15px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  border: none;
+  border-radius: 50px;
+  margin-bottom: 400px;
+}
+
+.view-on-youtube {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  background-color: red;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  cursor: pointer;
+  border: none;
+  border-radius: 10px;
+  font-size: 15px;
+  transition: all 0.25s;
+}
+
+.view-on-youtube:hover {
+  box-shadow: 0 5px 5px red;
+}
+
+@media screen and (max-height: 450px) {
+  .animate-on-scroll-delayed{
+    font-size: 50px;
+  }
+  .more-delay{
+    font-size: 40px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .animate-on-scroll-delayed{
+    font-size: 30px;
+  }
+  .more-delay {
+    font-size: 20px;
+  }
+  .scroll-down {
+    font-size: 15px;
+    padding: 10px;
+  }
+
+  .animate-on-scroll {
+    transform: translate(0, 0);
+    font-size: 14px;
+  }
+
+}
+
+@media only screen and (min-width: 1000px) {
+  .animate-on-scroll-delayed{
+    font-size: 75px;
+  }
+  .more-delay {
+    font-size: 50px;
+  }
+  .scroll-down {
+    font-size: 20px;
+  }
+}
