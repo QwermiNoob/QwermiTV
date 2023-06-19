@@ -140,6 +140,9 @@ section {
   box-shadow: 0 5px 5px red;
 }
 
+.view-on-youtube2:hover {
+  box-shadow: 0 5px 5px rgb(65, 223, 254);
+}
 @media screen and (max-height: 450px) {
   .animate-on-scroll-delayed{
     font-size: 50px;
