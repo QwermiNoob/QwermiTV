@@ -119,7 +119,7 @@ section {
   transition: all 0.25s;
 }
 
-.view-on-youtube2 {
+.view-on-youtubee {
   margin-top: 50px;
   margin-bottom: 50px;
   font-family: 'Poppins', sans-serif;
@@ -140,7 +140,7 @@ section {
   box-shadow: 0 5px 5px red;
 }
 
-.view-on-youtube2:hover {
+.view-on-youtubee:hover {
   box-shadow: 0 5px 5px rgb(65, 223, 254);
 }
 @media screen and (max-height: 450px) {
