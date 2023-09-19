@@ -136,6 +136,23 @@ section {
   transition: all 0.25s;
 }
 
+.view-on-youtubeee {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  background-color: rgb(42, 157, 143);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  cursor: pointer;
+  border: none;
+  border-radius: 10px;
+  font-size: 15px;
+  transition: all 0.25s;
+}
+
 .view-on-youtube:hover {
   box-shadow: 0 5px 5px red;
 }
