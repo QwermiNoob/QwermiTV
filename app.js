@@ -24,7 +24,8 @@ const videos = [
 	{ title: "MrBeast - The Movie", thumbnail: "images/video2.png", url: "https://youtu.be/Q2FKQPiUWrM" },
 	{ title: "NAi News", thumbnail: "images/video3.png", url: "https://youtu.be/fmNz9JrlfJQ" },
 	{ title: "Der Besuch der jungen Dame", thumbnail: "images/video4.png", url: "https://youtu.be/OI_pu3cYd78" },
-	{ title: "Le BG8", thumbnail: "images/video5.jpg", url: "https://youtu.be/3MIdgFknsAk" }
+	{ title: "Le BG8", thumbnail: "images/video5.jpg", url: "https://youtu.be/3MIdgFknsAk" },
+	{ title: "Der Piaristler - Podcast", thumbnail: "images/video6.jpg", url: "https://youtu.be/23qhzTZV3DQ" }
   ];
 
   let currentIndex = 0; // Tracks the current video index
